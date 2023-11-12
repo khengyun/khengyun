@@ -1,5 +1,7 @@
 <h2 align="center">Hi 👋! khengyun here </h2>
 
+<p align="center">I am currently enrolled in the Bachelor of Engineering program at FPT University, specializing in Software Engineering since 2021. My professional focus lies within the domain of Artificial Intelligence, specifically in Computer Vision, and involves the integration of AI to automate software systems.</p>
+
 ###
 
 <div align="center">
@@ -146,7 +148,7 @@
 
 ###
 
-<img align="right" height="300" src="https://avatars.githubusercontent.com/u/78076796?v=4"  />
+<img align="right" height="250" src="https://avatars.githubusercontent.com/u/78076796?v=4"  />
 
 ###
 
