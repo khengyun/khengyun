@@ -3,7 +3,7 @@
 <p align="center">I am currently enrolled in the Bachelor of Engineering program at FPT University, specializing in Software Engineering since 2021. My professional focus lies within the domain of Artificial Intelligence, specifically in Computer Vision, and involves the integration of AI to automate software systems.</p>
 
 
-###
+##
 
 <table align="center" style="border: none;">
   <tr>
@@ -20,7 +20,7 @@
 
 
 
-###
+## 🦾 Graph
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=khengyun&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
@@ -28,7 +28,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khengyun&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-###
+## 🤖 Knowledge 
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
@@ -150,7 +150,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" height="30" alt="unrealengine logo"  />
 </div>
 
-###
+## 🤌 Community 
 
 <div align="center">
   <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo"  />
@@ -164,7 +164,7 @@
   <img src="https://img.shields.io/static/v1?message=Outlook&logo=microsoft-outlook&label=&color=0078D4&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="microsoft-outlook logo"  />
 </div>
 
-###
+## 🐍 Sờ nách
 
 
 <br clear="both">
@@ -172,7 +172,7 @@
 <img  src="https://raw.githubusercontent.com/khengyun/khengyun/output/snake.svg" alt="Snake animation" />
 </div>
 
-### :zap: Recent Activity
+## :zap: Recent Activity
 
 <!--START_SECTION:activity-->
 1. 💪 Opened PR [#2](https://github.com/khengyun/scholar-pcrawler/pull/2) in [khengyun/scholar-pcrawler](https://github.com/khengyun/scholar-pcrawler)
