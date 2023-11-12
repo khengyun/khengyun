@@ -158,6 +158,10 @@
 
 ###
 
+<!--START_SECTION:activity-->
+
+###
+
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/khengyun/khengyun/output/snake.svg" alt="Snake animation" />
