@@ -146,7 +146,7 @@
 
 ###
 
-<img align="right" height="300" src="https://i.imgflip.com/65efzo.gif"  />
+<img align="right" height="300" src="https://avatars.githubusercontent.com/u/78076796?v=4"  />
 
 ###
 
