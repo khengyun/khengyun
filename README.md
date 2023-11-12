@@ -161,6 +161,8 @@
 ###
 
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#2](https://github.com/khengyun/scholar-pcrawler/pull/2) in [khengyun/scholar-pcrawler](https://github.com/khengyun/scholar-pcrawler)
+<!--END_SECTION:activity-->
 
 ###
 
