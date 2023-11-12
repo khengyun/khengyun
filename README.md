@@ -1,6 +1,24 @@
-<h2 align="center">Hi 👋! khengyun here </h2>
+<h1 align="center">Hi 👋! khengyun here </h1>
 
 <p align="center">I am currently enrolled in the Bachelor of Engineering program at FPT University, specializing in Software Engineering since 2021. My professional focus lies within the domain of Artificial Intelligence, specifically in Computer Vision, and involves the integration of AI to automate software systems.</p>
+
+
+###
+
+<table align="center" style="border: none;">
+  <tr>
+    <td align="center">
+      <img height="250" src="https://avatars.githubusercontent.com/u/78076796?v=4" />
+    </td>
+    <td align="center">
+      <a href="https://open.spotify.com/user/31oxqynoysx3u2efmh7rxzqmxcyy">
+        <img src="https://spotify-recently-played-readme.vercel.app/api?user=31oxqynoysx3u2efmh7rxzqmxcyy&count=4&unique=true" alt="Spotify recently played" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 
 ###
 
@@ -148,10 +166,6 @@
 
 ###
 
-<img align="right" height="250" src="https://avatars.githubusercontent.com/u/78076796?v=4"  />
-
-###
-
 <div align="center">
   <a href="https://open.spotify.com/user/31oxqynoysx3u2efmh7rxzqmxcyy">
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=31oxqynoysx3u2efmh7rxzqmxcyy&count=3&unique=true" alt="Spotify recently played"  />
@@ -160,14 +174,13 @@
 
 ###
 
-<!--START_SECTION:activity-->
-1. 💪 Opened PR [#2](https://github.com/khengyun/scholar-pcrawler/pull/2) in [khengyun/scholar-pcrawler](https://github.com/khengyun/scholar-pcrawler)
-<!--END_SECTION:activity-->
-
-###
-
 <br clear="both">
 <div align="center">
 <img  src="https://raw.githubusercontent.com/khengyun/khengyun/output/snake.svg" alt="Snake animation" />
 </div>
-###
+
+### :zap: Recent Activity
+
+<!--START_SECTION:activity-->
+1. 💪 Opened PR [#2](https://github.com/khengyun/scholar-pcrawler/pull/2) in [khengyun/scholar-pcrawler](https://github.com/khengyun/scholar-pcrawler)
+<!--END_SECTION:activity-->
