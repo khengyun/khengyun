@@ -1,0 +1,26 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '*/3 * * * *'  # Run every 3 minutes
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run update script
+      run: npm run update-readme
+      env:
+        GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
