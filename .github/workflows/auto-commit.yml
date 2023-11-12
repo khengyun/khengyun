@@ -1,10 +1,6 @@
 name: Auto commit
 
-on:
-  push:
-    branches:
-      - main
-      
+on:      
   schedule:
   - cron: "*/45 * * * *"
 
