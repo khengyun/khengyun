@@ -3,7 +3,7 @@ name: Auto commit
 on:
   push:
     branches:
-      - master
+      - main
       
   schedule:
   - cron: "*/5 * * * *"
@@ -47,7 +47,7 @@ jobs:
           git commit -m "${arr[$rand]}"
           
       - name: GitHub Push
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@master
         with:
           directory: "."
           github_token: ${{ secrets.METRICS_TOKEN }}
