@@ -62,13 +62,7 @@
     <td>2023</td>
   </tr>
   <tr>
-     <td><a  href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:u5HHmVD_uO8C">Optimizing YOLO Performance for Traffic Light Detection and End-to-End Steering Control for Autonomous Vehicles in Gazebo-ROS2</a></td>
-    <td>TN Hoang, KH Nguyen, HK Hua, HVN Nguyen, LD Quach</td>
-    <td></td>
-    <td>2023</td>
-  </tr>
-  <tr>
-    <td align="center"   colspan="4" id="show-more-cell" style="text-align:center; font-size: larger; position: relative;" title="Last Updated: 2023-11-13 16:18:39 UTC">
+    <td align="center"   colspan="4" id="show-more-cell" style="text-align:center; font-size: larger; position: relative;" title="Last Updated: 2023-11-13 16:21:35 UTC">
 <em><a href="https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=en" style="display: inline-block;">Show more</a></em></td>
   </tr>
 </table>
