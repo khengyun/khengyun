@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋! khengyun here </h1>
 
-<p align="center">I am currently enrolled in the Bachelor of Engineering program at FPT University, specializing in Software Engineering since 2021. My professional focus lies within the domain of Artificial Intelligence, specifically in Computer Vision, and involves the integration of AI to automate software systems.</p>
+<p align="center">I am presently pursuing a Bachelor of Engineering degree at FPT University, majoring in Software Engineering, a field I have been immersed in since 2021. My professional endeavors center around the realm of Artificial Intelligence, with a particular emphasis on Computer Vision. My primary objective involves the seamless integration of cutting-edge AI technologies to automate and enhance software systems.</p>
 
 
 ##
