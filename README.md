@@ -21,6 +21,10 @@
   </table>
 </a>
 
+## 🧑‍🏫 Scholar
+<!-- SCHOLAR-LIST:START -->
+
+<!-- SCHOLAR-LIST:END -->
 ## 🦾 Graph
 
 <div align="center">
