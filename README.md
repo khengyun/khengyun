@@ -223,5 +223,5 @@
 ## :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/khengyun/scholar-pcrawler/pull/2) in [khengyun/scholar-pcrawler](https://github.com/khengyun/scholar-pcrawler)
+1. 💪 Opened PR [#1](https://github.com/khengyun/camerajs/pull/1) in [khengyun/camerajs](https://github.com/khengyun/camerajs)
 <!--END_SECTION:activity-->
