@@ -1,0 +1,36 @@
+name: Update scholar infor
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Chạy mỗi 5 phút
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+      - name: Install Requests
+        run: |
+          pip3 install requests
+
+      - name: Run script
+        run: python update_readme_scholar.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "khgammingcraft@gmail.com"
+          git config --local user.name "khengyun"
+          git add README.md
+          git commit -m "Update scholar with API data"
+          git push
