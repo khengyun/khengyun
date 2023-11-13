@@ -68,10 +68,11 @@
     <td>2023</td>
   </tr>
   <tr>
-    <td colspan="4" id="show-more-cell" style="text-align:center; font-size: larger; position: relative;" title="Last Updated: 2023-11-13 16:06:29 UTC">
-<em><a href="https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=en">Show more</a></em></td>
+    <td colspan="4" id="show-more-cell" style="text-align:center; font-size: larger; position: relative;" title="Last Updated: 2023-11-13 16:08:57 UTC">
+<em><a href="https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=en" style="display: inline-block;">Show more</a></em></td>
   </tr>
 </table>
+
 <!-- SCHOLAR-LIST:END -->
 ## 🦾 Graph
 
