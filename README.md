@@ -24,6 +24,17 @@
 ## 🧑‍🏫 Scholar
 <!-- SCHOLAR-LIST:START -->
 
+## Scholar List
+
+| Title | Authors | Citations | Year |
+|-------|---------|-----------|------|
+| [Traffic lights detection and recognition method using deep learning with improved YOLOv5 for autonomous vehicle in ROS2](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:2osOgNQ5qMEC) | HK Hua, KH Nguyen, LD Quach, HN Tran | 3 | 2023 |
+| [Combining Contrast Limited Adaptive Histogram Equalization and Canny’s Algorithm for the Problem of Counting Seeds on Rice](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:9yKSN-GCB0IC) | LD Quach, PN Trong, KN Hoang, NN Chi |  | 2023 |
+| [Combining Autoencoder and Yolov6 Model for Classification and Disease Detection in Chickens](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:u-x6o8ySG0sC) | KH Nguyen, HVN Nguyen, HN Tran, LD Quach |  | 2023 |
+| [An Improved Lane-Keeping Controller for Autonomous Vehicles Leveraging an Integrated CNN-LSTM Approach](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:qjMakFHDy7sC) | TN Hoang, PP Hong, NN Vinh, NT Nguyen, KH Nguyen, LD Quach |  | 2023 |
+| [Lane Road Segmentation Based on Improved UNet Architecture for Autonomous Driving](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:d1gkVwhDpl0C) | TN Hoang, HVN Nguyen, KH Nguyen, LD Quach |  | 2023 |
+| [Optimizing YOLO Performance for Traffic Light Detection and End-to-End Steering Control for Autonomous Vehicles in Gazebo-ROS2](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:u5HHmVD_uO8C) | TN Hoang, KH Nguyen, HK Hua, HVN Nguyen, LD Quach |  | 2023 |
+| <td colspan=4 align=center><p style='font-size:larger;text-align:center'>[Show more](https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=en)</p></td> |
 <!-- SCHOLAR-LIST:END -->
 ## 🦾 Graph
 
