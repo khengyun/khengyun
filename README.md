@@ -9,7 +9,7 @@
     <tr>
       <td align="center">
         <a href="https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=en">
-          <img height="320" src="z4855478245283_02e87cca305757afd9350875cd8180b1.jpg" />
+          <img height="325" src="image (2).png" />
         </a>
       </td>
       <td align="center">
