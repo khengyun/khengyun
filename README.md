@@ -24,25 +24,7 @@
 ## 🧑‍🏫 Scholar
 <!-- SCHOLAR-LIST:START -->
 
-<style>
-#show-more-cell::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-#show-more-cell:hover::after {
-    visibility: visible;
-    opacity: 1;
-}
-</style>
-
-<table id="scholar-table">
+<table id="scholar-table" style="position: relative;">
   <tr>
     <th>Title</th>
     <th>Authors</th>
@@ -86,7 +68,7 @@
     <td>2023</td>
   </tr>
   <tr>
-    <td colspan="4" id="show-more-cell" data-tooltip="Last Updated: 2023-11-13 16:02:27 UTC" style="text-align:center; font-size: larger;">
+    <td colspan="4" id="show-more-cell" style="text-align:center; font-size: larger; position: relative;" title="Last Updated: 2023-11-13 16:06:29 UTC">
 <em><a href="https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=en">Show more</a></em></td>
   </tr>
 </table>
