@@ -21,7 +21,7 @@
   </table>
 </a>
 
-## 🧑‍🏫 Scholar
+## 🧑‍🏫 Top 5 Publications
 <!-- SCHOLAR-LIST:START -->
 
 <table id="scholar-table" style="position: relative;">
