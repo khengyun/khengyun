@@ -4,7 +4,7 @@
 
 
 ##
-<a src="https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=vi&authuser=2">
+<a href="https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=vi&authuser=2">
 <table align="center" style="border: none;">
   <tr>
     <td align="center">
