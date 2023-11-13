@@ -24,17 +24,72 @@
 ## 🧑‍🏫 Scholar
 <!-- SCHOLAR-LIST:START -->
 
-## Scholar List
+<style>
+#show-more-cell::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#show-more-cell:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+</style>
 
-| Title | Authors | Citations | Year |
-|-------|---------|-----------|------|
-| [Traffic lights detection and recognition method using deep learning with improved YOLOv5 for autonomous vehicle in ROS2](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:2osOgNQ5qMEC) | HK Hua, KH Nguyen, LD Quach, HN Tran | 3 | 2023 |
-| [Combining Contrast Limited Adaptive Histogram Equalization and Canny’s Algorithm for the Problem of Counting Seeds on Rice](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:9yKSN-GCB0IC) | LD Quach, PN Trong, KN Hoang, NN Chi |  | 2023 |
-| [Combining Autoencoder and Yolov6 Model for Classification and Disease Detection in Chickens](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:u-x6o8ySG0sC) | KH Nguyen, HVN Nguyen, HN Tran, LD Quach |  | 2023 |
-| [An Improved Lane-Keeping Controller for Autonomous Vehicles Leveraging an Integrated CNN-LSTM Approach](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:qjMakFHDy7sC) | TN Hoang, PP Hong, NN Vinh, NT Nguyen, KH Nguyen, LD Quach |  | 2023 |
-| [Lane Road Segmentation Based on Improved UNet Architecture for Autonomous Driving](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:d1gkVwhDpl0C) | TN Hoang, HVN Nguyen, KH Nguyen, LD Quach |  | 2023 |
-| [Optimizing YOLO Performance for Traffic Light Detection and End-to-End Steering Control for Autonomous Vehicles in Gazebo-ROS2](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:u5HHmVD_uO8C) | TN Hoang, KH Nguyen, HK Hua, HVN Nguyen, LD Quach |  | 2023 |
-| <td colspan=4 align=center><p style='font-size:larger;text-align:center'>[Show more](https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=en)</p></td> |
+<table id="scholar-table">
+  <tr>
+    <th>Title</th>
+    <th>Authors</th>
+    <th>Citations</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:2osOgNQ5qMEC">Traffic lights detection and recognition method using deep learning with improved YOLOv5 for autonomous vehicle in ROS2</a></td>
+    <td>HK Hua, KH Nguyen, LD Quach, HN Tran</td>
+    <td>3</td>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:9yKSN-GCB0IC">Combining Contrast Limited Adaptive Histogram Equalization and Canny’s Algorithm for the Problem of Counting Seeds on Rice</a></td>
+    <td>LD Quach, PN Trong, KN Hoang, NN Chi</td>
+    <td></td>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:u-x6o8ySG0sC">Combining Autoencoder and Yolov6 Model for Classification and Disease Detection in Chickens</a></td>
+    <td>KH Nguyen, HVN Nguyen, HN Tran, LD Quach</td>
+    <td></td>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:qjMakFHDy7sC">An Improved Lane-Keeping Controller for Autonomous Vehicles Leveraging an Integrated CNN-LSTM Approach</a></td>
+    <td>TN Hoang, PP Hong, NN Vinh, NT Nguyen, KH Nguyen, LD Quach</td>
+    <td></td>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:d1gkVwhDpl0C">Lane Road Segmentation Based on Improved UNet Architecture for Autonomous Driving</a></td>
+    <td>TN Hoang, HVN Nguyen, KH Nguyen, LD Quach</td>
+    <td></td>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YpOO60MAAAAJ&citation_for_view=YpOO60MAAAAJ:u5HHmVD_uO8C">Optimizing YOLO Performance for Traffic Light Detection and End-to-End Steering Control for Autonomous Vehicles in Gazebo-ROS2</a></td>
+    <td>TN Hoang, KH Nguyen, HK Hua, HVN Nguyen, LD Quach</td>
+    <td></td>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td colspan="4" id="show-more-cell" data-tooltip="Last Updated: 2023-11-13 16:02:27 UTC" style="text-align:center; font-size: larger;">
+<em><a href="https://scholar.google.com/citations?user=YpOO60MAAAAJ&hl=en">Show more</a></em></td>
+  </tr>
+</table>
 <!-- SCHOLAR-LIST:END -->
 ## 🦾 Graph
 
