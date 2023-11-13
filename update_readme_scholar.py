@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timezone
 
 # Địa chỉ API
-api_url = "https://scholar-pcrawler-1.elemarkuspet.repl.co/get_paper/YpOO60MAAAAJ"
+api_url = "https://scholar-pcrawler-1.elemarkuspet.repl.co/get_paper/YpOO60MAAAAJ?limit=5"
 
 # Lấy dữ liệu từ API
 response = requests.get(api_url)
