@@ -32,7 +32,7 @@ for paper in data["papers"]:
 html_content += f"  <tr>\n    <td colspan=\"4\" id=\"show-more-cell\" "
 html_content += f"style=\"text-align:center; font-size: larger; position: relative;\" "
 html_content += f"title=\"Last Updated: {current_date_time_str}\">\n"
-html_content += f"<em><a href=\"{data['user_scholar_url']}\">Show more</a></em></td>\n  </tr>\n</table>\n"
+html_content += f"<em><a href=\"{data['user_scholar_url']}\" style=\"display: inline-block;\">Show more</a></em></td>\n  </tr>\n</table>\n\n"
 
 # Đọc toàn bộ README.md
 with open("README.md", "r", encoding="utf-8") as readme_file:
