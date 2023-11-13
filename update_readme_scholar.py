@@ -23,7 +23,7 @@ html_content += "  </tr>\n"
 
 for paper in data["papers"]:
     html_content += (
-        f"  <tr>\n    <td><a href=\"{paper['Paper_URL']}\">{paper['Title']}</a></td>\n"
+        f"  <tr>\n     <td><a align=\"center\" href=\"{paper['Paper_URL']}\">{paper['Title']}</a></td>\n"
         f"    <td>{paper['Authors']}</td>\n    <td>{paper['Citations']}</td>\n"
         f"    <td>{paper['Year']}</td>\n  </tr>\n"
     )
