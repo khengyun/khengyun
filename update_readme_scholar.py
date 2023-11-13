@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime, timezone
 
 # Địa chỉ API
 api_url = "https://scholar-pcrawler-1.elemarkuspet.repl.co/get_paper/YpOO60MAAAAJ"
@@ -7,19 +8,48 @@ api_url = "https://scholar-pcrawler-1.elemarkuspet.repl.co/get_paper/YpOO60MAAAA
 response = requests.get(api_url)
 data = response.json()
 
-# Tạo chuỗi markdown từ dữ liệu
-markdown_content = "\n\n## Scholar List\n\n"
-markdown_content += "| Title | Authors | Citations | Year |\n"
-markdown_content += "|-------|---------|-----------|------|\n"
+# Lấy ngày, tháng, năm và múi giờ hiện tại
+current_datetime = datetime.now(timezone.utc)
+current_date_time_str = current_datetime.strftime("%Y-%m-%d %H:%M:%S %Z")
+
+# Tạo chuỗi CSS và HTML từ dữ liệu và thêm thông tin thời gian
+css_content = """
+#show-more-cell::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#show-more-cell:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+"""
+
+html_content = f"\n\n<style>{css_content}</style>\n"
+html_content += "\n<table id=\"scholar-table\">\n"
+html_content += "  <tr>\n"
+html_content += "    <th>Title</th>\n"
+html_content += "    <th>Authors</th>\n"
+html_content += "    <th>Citations</th>\n"
+html_content += "    <th>Year</th>\n"
+html_content += "  </tr>\n"
 
 for paper in data["papers"]:
-    markdown_content += (
-        f"| [{paper['Title']}]({paper['Paper_URL']}) | {paper['Authors']} | {paper['Citations']} | "
-        f"{paper['Year']} |\n"
+    html_content += (
+        f"  <tr>\n    <td><a href=\"{paper['Paper_URL']}\">{paper['Title']}</a></td>\n"
+        f"    <td>{paper['Authors']}</td>\n    <td>{paper['Citations']}</td>\n"
+        f"    <td>{paper['Year']}</td>\n  </tr>\n"
     )
 
-# Add the "Show more" row with center alignment and larger font size
-markdown_content += "| <td colspan=4 align=center><p style='font-size:larger;text-align:center'>[Show more](" + data['user_scholar_url'] + ")</p></td> |\n"
+# Add the "Show more" row with center alignment, larger font size, and italicized text
+html_content += f"  <tr>\n    <td colspan=\"4\" id=\"show-more-cell\" data-tooltip=\"Last Updated: {current_date_time_str}\" style=\"text-align:center; font-size: larger;\">\n"
+html_content += f"<em><a href=\"{data['user_scholar_url']}\">Show more</a></em></td>\n  </tr>\n</table>\n"
 
 # Đọc toàn bộ README.md
 with open("README.md", "r", encoding="utf-8") as readme_file:
@@ -31,9 +61,9 @@ end_marker = "<!-- SCHOLAR-LIST:END -->"
 start_pos = readme_content.find(start_marker) + len(start_marker)
 end_pos = readme_content.find(end_marker)
 
-# Thay thế phần giữa start_pos và end_pos bằng nội dung mới của bảng
+# Thay thế phần giữa start_pos và end_pos bằng nội dung mới của bảng và thông tin thời gian
 new_readme_content = (
-    readme_content[:start_pos] + markdown_content + readme_content[end_pos:]
+    readme_content[:start_pos] + html_content + readme_content[end_pos:]
 )
 
 # Ghi nội dung mới vào README.md
