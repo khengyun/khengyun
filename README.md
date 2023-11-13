@@ -8,11 +8,11 @@
 <table align="center" style="border: none;">
   <tr>
     <td align="center">
-      <img height="250" src="https://avatars.githubusercontent.com/u/78076796?v=4" />
+      <img height="350" src="https://github.com/khengyun/khengyun/assets/78076796/19d7a1a7-65ed-4cc1-822f-17bcc944354e" />
     </td>
     <td align="center">
       <a href="https://open.spotify.com/user/31oxqynoysx3u2efmh7rxzqmxcyy">
-        <img src="https://spotify-recently-played-readme.vercel.app/api?user=31oxqynoysx3u2efmh7rxzqmxcyy&count=4&unique=true" alt="Spotify recently played" />
+        <img src="https://spotify-recently-played-readme.vercel.app/api?user=31oxqynoysx3u2efmh7rxzqmxcyy&count=5&unique=true" alt="Spotify recently played" />
       </a>
     </td>
   </tr>
