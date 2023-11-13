@@ -23,13 +23,13 @@ html_content += "  </tr>\n"
 
 for paper in data["papers"]:
     html_content += (
-        f"  <tr>\n     <td><a align=\"center\" href=\"{paper['Paper_URL']}\">{paper['Title']}</a></td>\n"
+        f"  <tr>\n     <td><a  href=\"{paper['Paper_URL']}\">{paper['Title']}</a></td>\n"
         f"    <td>{paper['Authors']}</td>\n    <td>{paper['Citations']}</td>\n"
         f"    <td>{paper['Year']}</td>\n  </tr>\n"
     )
 
 # Add the "Show more" row with center alignment, larger font size, and italicized text
-html_content += f"  <tr>\n    <td colspan=\"4\" id=\"show-more-cell\" "
+html_content += f"  <tr>\n    <td align=\"center\"   colspan=\"4\" id=\"show-more-cell\" "
 html_content += f"style=\"text-align:center; font-size: larger; position: relative;\" "
 html_content += f"title=\"Last Updated: {current_date_time_str}\">\n"
 html_content += f"<em><a href=\"{data['user_scholar_url']}\" style=\"display: inline-block;\">Show more</a></em></td>\n  </tr>\n</table>\n\n"
