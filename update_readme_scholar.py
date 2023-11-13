@@ -12,27 +12,8 @@ data = response.json()
 current_datetime = datetime.now(timezone.utc)
 current_date_time_str = current_datetime.strftime("%Y-%m-%d %H:%M:%S %Z")
 
-# Tạo chuỗi CSS và HTML từ dữ liệu và thêm thông tin thời gian
-css_content = """
-#show-more-cell::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-#show-more-cell:hover::after {
-    visibility: visible;
-    opacity: 1;
-}
-"""
-
-html_content = f"\n\n<style>{css_content}</style>\n"
-html_content += "\n<table id=\"scholar-table\">\n"
+# Tạo chuỗi HTML từ dữ liệu và thêm thông tin thời gian
+html_content = "\n\n<table id=\"scholar-table\" style=\"position: relative;\">\n"
 html_content += "  <tr>\n"
 html_content += "    <th>Title</th>\n"
 html_content += "    <th>Authors</th>\n"
@@ -48,7 +29,9 @@ for paper in data["papers"]:
     )
 
 # Add the "Show more" row with center alignment, larger font size, and italicized text
-html_content += f"  <tr>\n    <td colspan=\"4\" id=\"show-more-cell\" data-tooltip=\"Last Updated: {current_date_time_str}\" style=\"text-align:center; font-size: larger;\">\n"
+html_content += f"  <tr>\n    <td colspan=\"4\" id=\"show-more-cell\" "
+html_content += f"style=\"text-align:center; font-size: larger; position: relative;\" "
+html_content += f"title=\"Last Updated: {current_date_time_str}\">\n"
 html_content += f"<em><a href=\"{data['user_scholar_url']}\">Show more</a></em></td>\n  </tr>\n</table>\n"
 
 # Đọc toàn bộ README.md
