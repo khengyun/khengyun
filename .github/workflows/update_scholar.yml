@@ -2,7 +2,7 @@ name: Update scholar infor
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Chạy mỗi 5 phút
+    - cron: '* */20 * * *'  # Chạy mỗi 5 phút
   workflow_dispatch:
 
 jobs:
