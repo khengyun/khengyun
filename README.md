@@ -223,5 +223,5 @@
 ## :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#163](https://github.com/khengyun/FFood-shop/pull/163#issuecomment-1812475640) in [khengyun/FFood-shop](https://github.com/khengyun/FFood-shop)
+1. 🎉 Merged PR [#164](https://github.com/khengyun/FFood-shop/pull/164) in [khengyun/FFood-shop](https://github.com/khengyun/FFood-shop)
 <!--END_SECTION:activity-->
