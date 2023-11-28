@@ -223,5 +223,5 @@
 ## :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#5](https://github.com/khengyun/test/pull/5) in [khengyun/test](https://github.com/khengyun/test)
+
 <!--END_SECTION:activity-->
