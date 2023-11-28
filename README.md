@@ -223,5 +223,5 @@
 ## :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#164](https://github.com/khengyun/FFood-shop/pull/164) in [khengyun/FFood-shop](https://github.com/khengyun/FFood-shop)
+1. 💪 Opened PR [#1](https://github.com/khengyun/test/pull/1) in [khengyun/test](https://github.com/khengyun/test)
 <!--END_SECTION:activity-->
