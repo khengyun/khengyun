@@ -12,9 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: khengyun/issue-metrics@main
+      - uses: jamesgeorge007/github-activity-readme@master
         env:
-          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
           COMMIT_MSG: "Specify a custom commit message"
           MAX_LINES: 5
