@@ -223,5 +223,5 @@
 ## :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#1](https://github.com/khengyun/chat_gpt_extension_for_edunext/issues/1) in [khengyun/chat_gpt_extension_for_edunext](https://github.com/khengyun/chat_gpt_extension_for_edunext)
+1. ❗ Opened issue [#3](https://github.com/khengyun/test/issues/3) in [khengyun/test](https://github.com/khengyun/test)
 <!--END_SECTION:activity-->
