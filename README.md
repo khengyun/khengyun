@@ -199,15 +199,7 @@
 </div>
 
 ## 🐍 [sneɪk]
-
-
 <br clear="both">
 <div align="center">
 <img  src="https://raw.githubusercontent.com/khengyun/khengyun/output/snake.svg" alt="Snake animation" />
 </div>
-
-## :zap: Recent Activity
-
-<!--START_SECTION:activity-->
-
-<!--END_SECTION:activity-->
