@@ -6,3 +6,4 @@
 
 ## Badge
 [![committers.top badge](https://user-badge.committers.top/vietnam/khengyun.svg)](https://user-badge.committers.top/vietnam/khengyun)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jlowin/fastmcp)
